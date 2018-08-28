@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Course Sign Up Page</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<h2>Course Sign Up Page</h2>
+	<p>Please Note: First Name, Last Name, Password, and Email are Required</p>
+
+	<form action="https://cas.fsu.edu/cas/login?service=https%3A%2F%2Ffsu.instructure.com%2Flogin%2Fcas" method="get">
+		<label for="firstName">First Name:</label>
+		<input type="text"  placeholder="First Name" id="firstName" required>
+
+		<label for="lastName">Last Name:</label>
+		<input type="text"  placeholder="Last Name" id="lastName" required>
+
+		<label for="Email">Email:</label>
+		<input type="email"  placeholder="name@email.com" id="Email" required>
+
+		<label for="password">Password:</label>
+		<input type="password" id="password" required>
+
+		<p>Are you over the age of 18?</p>
+		<label for="Over18">Yes</label>
+		<input type="radio" id="Over" value="Over" name="O_U">
+
+		<label for="Under18">No</label>
+		<input type="radio" id="Under" value="Under" name=O_U>
+
+		<p>Do you have a Credit Card or PayPal?</p>
+		<select name="credit_or_paypal">
+			<option>Credit Card</option>
+			<option>PayPal</option>
+		</select>
+
+		<input type="submit" value="Sign Up">
+	</form>
+
+
+	
+
+</body>
+</html>

@@ -1,0 +1,90 @@
+body{
+	font-family: "Roboto Mono";
+	background-color:#61E786; 
+	color:white;
+	margin: 0;
+	height: 100%;
+	position: relative;
+
+}
+
+h1{
+	text-align: center; 
+}
+
+h2{
+	font-family: "Bangers";
+	text-align: center;
+}
+
+h3{
+	font-family: sans-serif;
+	text-align: center;
+}
+
+p{
+	font-family: sans-serif;
+	text-align: center;
+}
+
+label{
+	display: block;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+input{
+	display:block;
+	margin:auto;
+	width: 250px;
+	height: 25px;
+}
+
+#first{
+
+}
+
+#last{
+
+}
+
+#mail{
+	
+}
+
+#sign_up{
+	background-color:#EDFFEC;
+	border:1px solid black;
+	border-radius: 15px;
+	height: 8em;
+	width: 10em;
+	margin-top: 2em;
+	
+}
+
+#info{
+	margin-left: 30px;
+	margin-right: 30px;
+	padding-bottom: 75px;
+	border:1px solid #48435C;
+	background-color: #48435C; 
+}
+
+#upper{
+	min-height: 20px;
+	background-color: #48435C; 
+}
+
+#thanks{
+	margin-left: 30px;
+	margin-right: 30px;
+	padding-top: 1px;
+	background-color: #48435C;
+}
+
+#lower{
+
+	min-height: 1px;
+	padding: 330px 100px;
+	background-color: #48435C;
+}

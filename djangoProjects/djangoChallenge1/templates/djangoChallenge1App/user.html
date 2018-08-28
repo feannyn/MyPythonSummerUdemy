@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+<head>
+	<title>The Users Page</title>
+	<link rel="stylesheet"  href={% static "css/mystyle.css" %}/>
+</head>
+<body>
+	<h1>Hi, These are the users</h1>
+	<div>
+		{% if email %}
+		<table>
+			<thead>
+				<th><em>Email</em></th>
+				<th><em>First Name</em></th>
+				<th><em>Last Name</em></th>
+			</thead>
+
+			{% for info in email %}
+				<tr>
+					<td>{{info.f_name}}</td>
+					<td>{{info.l_name}}</td>
+					<td>{{info.email}}</td>
+				</tr>
+			{% endfor %}
+		</table>
+		{% else %}
+			<h1>No Users were found...</h1>
+		{% endif %}		
+	</div>
+</body>
+</html>

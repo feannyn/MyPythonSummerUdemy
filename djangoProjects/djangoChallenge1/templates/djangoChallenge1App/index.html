@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+<head>
+	<title>Index; The Lich King</title>
+	<link rel="stylesheet" type="text/css" href={% static "css/mystyle.css" %}>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container">
+		<div class = "jumbotron">
+			<h1>THIS IS YOUR FIRST EVER DJANGO TEMPLATE PROJECT!!!!!</h1>
+			<h2>Go to "/signup" to see the form that was created in this lesson</h2>
+			<h2>Go to "/user" to see the form that was created in this lesson</h2>
+		</div>
+	</div>
+	<div class="container">
+		<div>{{test|safe}}
+			<h3>This is the Lich King O.o</h3>
+			<img src="{% static "images/lich_king.jpg" %}" alt= "No Joy... Image failed to load :/">
+		</div>	
+	</div>
+</body>
+</html>
+
